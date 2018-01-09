@@ -1,0 +1,25 @@
+{
+  "name": "glencore-ui-package",
+  "version": "1.0.0",
+  "description": "general ui package for glencore interal application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ui"
+  ],
+  "author": "enhui zhu",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/core": "^5.1.3"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.6.3",
+    "node-sass": "^4.7.2",
+    "rollup-plugin-angular": "^0.5.3",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-typescript": "^0.8.1"
+  }
+}
