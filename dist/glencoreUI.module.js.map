@@ -1,0 +1,1 @@
+{"version":3,"file":"glencoreUI.module.js","sourceRoot":"","sources":["../src/glencoreUI.module.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,eAAe,CAAC;AACzC,OAAO,EAAE,aAAa,EAAE,MAAM,6BAA6B,CAAC;;;;;gBAE3D,QAAQ,SAAC;oBACR,OAAO,EAAE,EAAE;oBACX,OAAO,EAAE,CAAC,aAAa,CAAC;oBACxB,YAAY,EAAE,CAAC,aAAa,CAAC;iBAC9B;;;2BAPD;;SASa,gBAAgB"}

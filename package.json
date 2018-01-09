@@ -4,7 +4,10 @@
   "description": "general ui package for glencore interal application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "transpile": "ngc",
+    "package": "rollup -c",
+    "minify": "uglifyjs dist/bundles/amazing.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/amazing.umd.min.js",
+    "build": "npm run transpile && npm run package && npm run minify"
   },
   "keywords": [
     "ui"
@@ -16,10 +19,15 @@
   },
   "devDependencies": {
     "@angular/cli": "^1.6.3",
+    "@angular/compiler": "^5.1.3",
+    "@angular/compiler-cli": "^5.1.3",
     "node-sass": "^4.7.2",
+    "rollup": "^0.53.3",
     "rollup-plugin-angular": "^0.5.3",
     "rollup-plugin-commonjs": "^8.2.6",
     "rollup-plugin-node-resolve": "^3.0.0",
-    "rollup-plugin-typescript": "^0.8.1"
+    "rollup-plugin-typescript": "^0.8.1",
+    "typescript": "^2.6.2",
+    "uglify-js": "^3.3.5"
   }
 }
